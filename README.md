@@ -37,7 +37,7 @@ git clone https://github.com/YourUsername/FragMind.git
 cd FragMind
 ```
 
-2. **安装依赖**
+2. **安装依赖**（需要先安装[uv](https://github.com/astral-sh/uv)）
 ```bash
 # 使用 uv 自动创建虚拟环境并安装依赖
 uv sync
