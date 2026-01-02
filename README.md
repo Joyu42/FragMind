@@ -33,7 +33,7 @@ FragMind 是一个创新的智能日记应用，核心理念是"**碎碎念就�
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/YourUsername/FragMind.git
+git clone https://github.com/Joyu42/FragMind.git
 cd FragMind
 ```
 
@@ -51,7 +51,7 @@ uv run src/main.py
 ### 首次使用配置
 
 1. 启动应用后，点击菜单栏的 **设置 -> API 配置**。
-2. 输入你的 **DeepSeek API Key**（或其他兼容 OpenAI 格式的 API Key）。
+2. 输入你的 [**DeepSeek API Key**](https://platform.deepseek.com/)（或其他兼容 OpenAI 格式的 API Key）。
 3. (可选) 点击 **设置 -> 自定义提示词**，输入你希望 AI 生成日记时的风格指令（例如："使用鲁迅的文风"）。
 
 ## 📁 项目结构
