@@ -280,7 +280,7 @@ class MainWindow(QMainWindow):
         date_nav_layout = QHBoxLayout()
         
         # 标题
-        title = QLabel("💭 碎片记录")
+        title = QLabel("碎片记录")
         title.setFont(QFont("Arial", 16, QFont.Weight.Bold))
         date_nav_layout.addWidget(title)
         
@@ -332,13 +332,13 @@ class MainWindow(QMainWindow):
         btn_layout = QHBoxLayout()
         
         # 按钮 1: 仅保存
-        self.btn_save_only = QPushButton("💾 记录")
+        self.btn_save_only = QPushButton("记录")
         self.btn_save_only.setToolTip("仅保存内容，不分析待办事项")
         self.btn_save_only.setFixedHeight(36)
         self.btn_save_only.clicked.connect(lambda: self.save_diary_entry(extract_todo=False))
         
         # 按钮 2: 保存并提取
-        self.btn_save_extract = QPushButton("⚡ 提取待办")
+        self.btn_save_extract = QPushButton("提取待办")
         self.btn_save_extract.setToolTip("不保存内容，尝试从中提取待办事项")
         self.btn_save_extract.setFixedHeight(36)
         self.btn_save_extract.clicked.connect(self.extract_todo_only)
@@ -361,7 +361,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.entry_list)
         
         # 生成总结按钮
-        self.btn_generate_summary = QPushButton("✨ 生成今日总结")
+        self.btn_generate_summary = QPushButton("生成今日总结")
         self.btn_generate_summary.setFixedHeight(36)
         self.btn_generate_summary.clicked.connect(self.generate_summary)
         layout.addWidget(self.btn_generate_summary)
@@ -375,7 +375,7 @@ class MainWindow(QMainWindow):
         layout.setContentsMargins(0, 0, 0, 0)
         
         # 标题
-        title = QLabel("📖 今日日记")
+        title = QLabel("今日日记")
         title.setFont(QFont("Arial", 16, QFont.Weight.Bold))
         layout.addWidget(title)
         
@@ -393,7 +393,7 @@ class MainWindow(QMainWindow):
         
         # 操作按钮
         btn_layout = QHBoxLayout()
-        self.btn_save_summary = QPushButton("💾 保存修改")
+        self.btn_save_summary = QPushButton("保存修改")
         self.btn_save_summary.setFixedHeight(36)
         self.btn_save_summary.clicked.connect(self.save_summary)
         btn_layout.addWidget(self.btn_save_summary)
@@ -408,7 +408,7 @@ class MainWindow(QMainWindow):
         layout.setContentsMargins(0, 0, 0, 0)
         
         # 标题
-        title = QLabel("✅ 待办事项")
+        title = QLabel("待办事项")
         title.setFont(QFont("Arial", 16, QFont.Weight.Bold))
         layout.addWidget(title)
         
